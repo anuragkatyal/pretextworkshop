@@ -11,16 +11,16 @@
     </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="Intermediate_Algebra">
+    <title>Intermediate Algebra</title>
+    <subtitle>Summer 2023</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Anurag asfasfas asafsf asafsaf Katyal</personname>
+          <department>Mathematics</department>
+          <institution>Palm Beach State College</institution>
         </author>
         <date>
           <today />
@@ -31,13 +31,13 @@
 
         <website>
           <name>
-            <c>example.org</c>
+            <c>www.pitimespi.com</c>
           </name>
-          <address>https://example.org</address>
+          <address>https://pitimespi.com</address>
         </website>
 
         <copyright>
-          <year>2020<ndash />2023</year>
+          <year>2023<ndash />2023</year>
           <holder>You</holder>
           <shortlicense> 
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
@@ -52,6 +52,14 @@
       <section xml:id="section-title">
         <title>Section title</title>
         <p>Hello</p>
+
+        <definition xml:id="def-1.1">
+          <statement>
+            <p>
+              This is the first definition. An example of <term>math</term> is <m>sin^2(x) + cos^2(x) = 1</m>.
+            </p>
+          </statement>
+        </definition>
       </section>
 
     </chapter>
