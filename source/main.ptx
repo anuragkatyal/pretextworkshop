@@ -50,16 +50,85 @@
       <title>Chapter title</title>
 
       <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
-
-        <definition xml:id="def-1.1">
-          <statement>
-            <p>
-              This is the first definition. An example of <term>math</term> is <m>sin^2(x) + cos^2(x) = 1</m>.
-            </p>
-          </statement>
-        </definition>
+        <section xml:id="sec-4_3" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <title>AC Method</title>
+          <subsection xml:id="subsec-acmq">
+            <title>What's the point?</title>
+            <p>We start our discussion of factoring quadratics using the AC Method by reviewing multiplication of polynomials. We discussed it in Section 3.4.</p>
+            <interactive iframe="https://slides.com/whyoverhow/acmq/fullscreen" width="100%"/>
+            <hint component="video">
+              <title>Video explanation</title>
+              <video width="98%" youtube="dPwglBUoBU4" component="video"/>
+            </hint>
+        
+            
+            
+        
+              
+            <figure>
+              <caption>This is dumb</caption>
+              <interactive label="interactive-doenetml-example" platform="doenetml" width="100%" aspect="3:2">
+              <slate surface="doenetml">
+              <xi:include parse="text" href="./4_3rq1.ptx" />
+              </slate>
+              </interactive>
+              </figure>
+          </subsection>
+        
+          <subsection xml:id="subsec-acgen">
+            <title>Let's Generalize</title>
+            <p>Instead of using specific constants, what if we considered multiplying two general binomials.</p>
+            
+            
+            <!-- <interactive iframe="https://slides.com/whyoverhow/acgen/fullscreen" width="100%"/> -->
+            <interactive iframe="./testslide.html" width="100%"/>
+            <hint component="video">
+              <title>Video explanation</title>
+              <video width="98%" youtube="vOYR_CbCjpM" component="video"/>
+            </hint>
+          
+        
+          
+        
+          
+          </subsection>
+          
+          
+        
+        
+          <subsection xml:id="subsec-acex1">
+            <title>Intuition for the Technique</title>
+            <p>Here's an example of a problem that can be solved using the AC Method.</p>
+            <interactive iframe="https://slides.com/whyoverhow/acexample1/fullscreen" width="100%"/>
+            <hint component="video">
+              <title>Video explanation</title>
+              <video width="98%" youtube="-dnDgvuU7-0" component="video"/>
+            </hint>
+        
+            <figure xml:id="figure-doenetml2">
+              
+              <interactive label="interactive-doenetml-example" platform="doenetml" width="100%" aspect="3:2">
+              <slate surface="doenetml">
+                <xi:include parse="text" href="./4_3rq2.ptx"/>
+              </slate>
+              </interactive>
+              </figure>
+          </subsection>
+          
+          
+        
+          <subsection xml:id="subsec-acpp">
+              <interactive label="interactive-doenetml-example" platform="doenetml" width="100%" aspect="3:2">
+              <slate surface="doenetml">
+                <xi:include parse="text" href="./4_3pq.ptx"/>
+              </slate>
+              </interactive>
+              
+          </subsection>
+          
+          
+        
+        </section>
       </section>
 
     </chapter>
